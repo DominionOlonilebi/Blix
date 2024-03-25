@@ -9,9 +9,9 @@ const Design = () => {
           <Row>
             <Col md={7}>
               <div className="build">
-                <h1>
+                <h2>
                   <b>
-                    Dare to Build.
+                    <span>Dare to Build.</span>
                     <br />
                     Dare To Complete.
                     <br />
@@ -19,7 +19,7 @@ const Design = () => {
                     <br />
                     Excellence Begins Here!
                   </b>
-                </h1>
+                </h2>
                 <Button className="simple-linear">
                   <b>Register Now</b>
                 </Button>

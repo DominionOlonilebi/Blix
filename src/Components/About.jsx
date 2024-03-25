@@ -4,9 +4,9 @@ import { Col, Container, Row } from "react-bootstrap";
 const About = () => {
   return (
     <>
-      <section id="#about">
+      <section id="about">
         <Container>
-          <Row>
+          <Row className="abt_row">
             <Col md={6}>
               <div className="abt">
                 <img
@@ -26,9 +26,9 @@ const About = () => {
 
             <Col md={6}>
               <div className="about">
-                <h1 className="mb-3">
+                <h2 className="mb-3">
                   <b>About Blix-A-Thon'24</b>
-                </h1>
+                </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing nulla
                   pellentesque
@@ -82,47 +82,47 @@ const About = () => {
         </Container>
 
         <Container className="date">
-          <h1>
+          <h2>
             {" "}
             <b>Important Dates</b>
-          </h1>
+          </h2>
           <div className="dates">
             <Row className="d-flex flex-row justify-content-center">
-              <Col md={2}>
+              <div className="col-md-2 col-4">
                 <p className="mx-3">Monday</p>
                 <p className="mx-3">8am</p>
                 <p className="mx-3">
                   <b>25th Dec 2023</b>
                 </p>
-              </Col>
-              <Col md={2}>
+              </div>
+              <div className="col-md-2 col-4">
                 <p className="mx-3">Tuesday</p>
                 <p className="mx-3">8am</p>
                 <p className="mx-3">
                   <b>25th Dec 2023</b>
                 </p>
-              </Col>
-              <Col md={2}>
+              </div>
+              <div className="col-md-2 col-4">
                 <p className="mx-3">Wednesday</p>
                 <p className="mx-3">8am</p>
                 <p className="mx-3">
                   <b>25th Dec 2023</b>
                 </p>
-              </Col>
-              <Col md={2}>
+              </div>
+              <div className="col-md-2 col-4">
                 <p className="mx-3">Thursday</p>
                 <p className="mx-3">8am</p>
                 <p className="mx-3">
                   <b>25th Dec 2023</b>
                 </p>
-              </Col>
-              <Col md={2}>
+              </div>
+              <div className="col-md-2 col-4">
                 <p className="mx-3">Friday</p>
                 <p className="mx-3">8am</p>
                 <p className="mx-3">
                   <b>25th Dec 2023</b>
                 </p>
-              </Col>
+              </div>
             </Row>
           </div>
         </Container>

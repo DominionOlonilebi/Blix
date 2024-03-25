@@ -7,22 +7,22 @@ const Footer = () => {
       <Container fluid className="footer">
         <Container>
           <Row className="d-flex flex-row justify-content-center">
-            <Col md={2}>
+            <div className="col-md-2 mb-4">
               <h1>Blix</h1>
-            </Col>
-            <Col md={3}>
+            </div>
+            <div className="col-md-3 col-6 mb-4">
               <p>Lorem ipsum dolor sit amet</p>
               <p>consectetur adipiscing</p>
               <p>nulla pellentesque</p>
-            </Col>
-            <Col md={3}>
+            </div>
+            <div className="col-md-3 col-6 mb-4">
               <p>Lorem ipsum dolor sit amet</p>
               <p>consectetur adipiscing</p>
               <p>nulla pellentesque</p>
-            </Col>
-            <Col md={3}>
+            </div>
+            <div className="col-md-2 ">
               <Button className="simple-linear">Register Now</Button>
-            </Col>
+            </div>
           </Row>
         </Container>
 

@@ -56,14 +56,18 @@ const Quality = () => {
         </Container>
       </Container>
 
-      <Container fluid className="hws">
+      <section
+        fluid
+        className="hws"
+        style={{ overflowX: "clip", paddingBottom: "30px" }}
+      >
         <Container className="hows">
-          <h1>
+          <h2>
             <b>How to Participate?</b>
-          </h1>
+          </h2>
           <div className="how">
             <Row>
-              <Col md={2} className="how1">
+              <div className="col-md-2 col-4 how1">
                 <div className="stp5">
                   <b>05</b>
                 </div>
@@ -72,11 +76,11 @@ const Quality = () => {
                   <b>Step5</b>
                 </h4>
                 <p>Justo donec enim diam</p>
-              </Col>
+              </div>
             </Row>
 
             <Row>
-              <Col md={2} className="how2">
+              <div className="col-md-2 col-4 how2">
                 <div className="stp4">
                   <b>04</b>
                 </div>
@@ -88,11 +92,11 @@ const Quality = () => {
                   Justo donec enim diam vulputate ut pharetra sit amet aliquam.
                   Ut placerat orci nulla pellentesque dignissim enim sit amet.
                 </p>
-              </Col>
+              </div>
             </Row>
 
             <Row>
-              <Col md={2} className="how3">
+              <div className="col-md-2 col-4 how3">
                 <div className="stp3">
                   <b>03</b>
                 </div>
@@ -106,11 +110,11 @@ const Quality = () => {
                   Justo donec enim diam vulputate ut pharetra sit amet aliquam.
                   Ut placerat orci nulla.
                 </p>
-              </Col>
+              </div>
             </Row>
 
             <Row>
-              <Col md={2} className="how4">
+              <div className="col-md-2 col-4 how4">
                 <div className="stp2">
                   <b>02</b>
                 </div>
@@ -121,11 +125,11 @@ const Quality = () => {
                   <b>Step2</b>
                 </h4>
                 <p>Justo donec enim diam vulputate ut phar.</p>
-              </Col>
+              </div>
             </Row>
 
             <Row>
-              <Col md={2} className="how5">
+              <div className="col-md-2 col-4 how5">
                 <div className="stp1">
                   <b>01</b>
                 </div>
@@ -134,11 +138,11 @@ const Quality = () => {
                   <b>Step1</b>
                 </h4>
                 <p>Justo donec amet.</p>
-              </Col>
+              </div>
             </Row>
           </div>
         </Container>
-      </Container>
+      </section>
     </div>
   );
 };

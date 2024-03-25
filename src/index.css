@@ -1,312 +1,357 @@
 /*navbar*/
-.navbar .navbar-brand{ 
-    font-size: 45px;
-    background: linear-gradient(to right, rgb(231, 3, 3) 0%, #f1d904 100%);
+.navbar .navbar-brand {
+  font-size: 45px;
+  background: linear-gradient(to right, rgb(231, 3, 3) 0%, #f1d904 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .navbar .simple-linear {
-        background: linear-gradient( #edf104, rgb(233, 2, 2));
-    color: white;
-    border-radius: 35px;
-    width: 155px;
-    height: 48px;
-    font-size: 17px;
-    border: none;
+  background: linear-gradient(#edf104, rgb(233, 2, 2));
+  color: white;
+  border-radius: 35px;
+  width: 155px;
+  height: 48px;
+  font-size: 17px;
+  border: none;
 }
-.navbar .simple-linear a{
-    text-decoration: none;
+.navbar .simple-linear a {
+  text-decoration: none;
 }
-.navbar .nav-link{
-    font-size: 18px;
+.navbar .nav-link {
+  font-size: 18px;
+  color: rgb(29, 29, 29);
 }
-.builder{
-    background-color: rgb(0, 0, 29);
-    color: white;
-    padding-bottom: 90px;
-    padding-top: 95px;
+
+/* Background */
+.builder {
+  background-color: rgb(0, 0, 29);
+  color: white;
+  padding-bottom: 90px;
+  padding-top: 95px;
 }
-.build h1{
-    margin-top: 90px;
-    font-size: 51px;
+.build h2 {
+  margin-top: 120px;
+  font-size: 37px;
 }
-.my .imgs{
-    margin-top: 80px;
+.build h2 span {
+  color: #f18204;
+  font-size: 22px;
 }
-.build .simple-linear{
-    margin-top: 50px;
-    background: linear-gradient( #e6b102, rgb(255, 2, 2));
-    color: white;
-    border-radius: 35px;
-    width: 175px;
-    height: 55px;
-    font-size: 18px;
-    border: none;
+.my .imgs {
+  margin-top: 80px;
 }
-.abt .abts{
-    margin-top: 120px;
+.build .simple-linear {
+  margin-top: 50px;
+  background: linear-gradient(#e6b102, rgb(255, 2, 2));
+  color: white;
+  border-radius: 35px;
+  width: 175px;
+  height: 55px;
+  font-size: 18px;
+  border: none;
 }
-.abt .simple-linear{
-    text-align: center;
-    margin-left: 130px;
-    background: linear-gradient(to right, rgb(231, 3, 3) 0%, #f1d904 100%);
+.abt .abts {
+  margin-top: 70px;
+}
+.abt .simple-linear {
+  text-align: center;
+  margin-left: 130px;
+  background: linear-gradient(to right, rgb(231, 3, 3) 0%, #f1d904 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.abt .hon{
-}
-.about{
-    margin-top: 120px;
-    margin-bottom: 60px;
-}
-.about h1{
-    color: rgb(1, 1, 51);
-}
-.about p{
-    font-size: 18px;
-    color: rgb(1, 1, 51);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.prb{
-    background-color:rgb(218, 18, 18);
-    color: white;
-    text-align: center;
-    padding-bottom: 30px;
-    border-radius: 8px;
-    line-height: 40px;
-}
-.prb h2{
-    margin-top: 50px;
-    padding-top: 50px;
-}
-.date{
-    color: rgb(1, 1, 51);
-    margin-top: 70px;
-}
-.date h1{
-    text-align: center;
-    margin-bottom: 60px;
-}
-.date p{
-    font-size: 18px;
-}
-.parts{
-    background-color: rgb(1, 1, 32);
-    color: white;
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
-.parts h2{
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 20px;
-}
-.hows{
-    text-align: center;
-    align-items: center;
-    
-}
-.hows h1{
-    padding-top: 70px;
-    color: rgb(1, 1, 51);
-}
-.hws{
-background-color: rgb(228, 230, 231);
-}
-.how .how1{
-    margin-left: 920px;
-    margin-top: 20px;
-}
-.how .how2{
-    margin-left: 720px;
-    margin-top: -100px;
-}
-.how .how3{
-    margin-left: 480px;
-    margin-top: -230px;
-}
-.how .how4{
-    margin-left: 220px;
-    margin-top: -170px;
-}
-.how .how5{
-    margin-left: 20px;
-    margin-top: -120px;
-}
-.how .stp5{
-    font-size: 40px;
-    color: rgb(231, 3, 3);
-}
-.how .stp4{
-    font-size: 40px;
-    color: rgb(1, 1, 51);
-}
-.how .stp3{
-    font-size: 40px;
-    color: #fa871c;
-}
-.how .stp2{
-    font-size: 40px;
-    color: orangered;
-}
-.how .stp1{
-    font-size: 40px;
-    color: rgb(231, 3, 3);
-}
-.how5 h4{
-    color: rgb(231, 3, 3);
-}
-.how4 h4{
-    color: orangered;
-}
-.how3 h4{
-    color: #fa871c;
-}
-.how2 h4{
-    color: rgb(1, 1, 51);
-}
-.how1 h4{
-    color: rgb(231, 3, 3);
-}
-.tool{
+@media (max-width: 768px) {
+  .abt img {
+    width: 400px;
+    height: 400px;
+  }
+  .abt .abts {
+    margin-top: 30px;
+  }
+  #about .abt_row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
-    align-items: center;
-    text-align: center;
-}
-.squar{
-    border: 2px solid rgb(231, 3, 3);
-    border-radius: 10px;
-    text-align: center;
-}
-.square{
-    border: 2px solid #da6c05;
-    border-radius: 10px;
-    text-align: center;
-    
-}
-.squares{
-    border: 2px solid #e6b102;
-    border-radius: 10px;
-    text-align: center;
-    
-}
-.tol p{
+  .about h2 {
+    margin-top: -50px;
+  }
+  .builder img {
     margin-bottom: 70px;
-    color: rgb(231, 3, 3);
+  }
+  .date .dates p {
+    font-size: 14px;
+  }
+  .hws {
+    padding-bottom: 30px;
+  }
+  .hows h1 {
+    margin-bottom: -150px;
+  }
+  .footer .simple-linear{
+    margin-left: 150px;
+  }
 }
-.tols h1{
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 20px;
-    color: rgb(1, 1, 51);
+
+@media (max-width: "1240px") {
+  .date .dates p {
+    font-size: 14px;
+  }
+  .hows h1 {
+    margin-bottom: -150px;
+  }
+  .hws {
+    padding-bottom: 30px;
+  }
 }
-.update{
-    background-color: #f18a04;
-    padding-bottom: 100px;
-    margin-top: 100px;
-    margin-bottom: 80px;
+.about {
+  margin-top: 120px;
+  margin-bottom: 60px;
 }
-.update h1{
-    margin-top: 60px;
-    margin-bottom: 20px;
-    text-align: center;
+.about h2 {
+  color: rgb(1, 1, 51);
 }
-.update button{
-    margin-left: 210px;
-    background-color: red;
+.about p {
+  font-size: 16px;
+  color: rgb(88, 88, 88);
 }
-.dist{
-    background-color: red;
-    margin-top: 60px;
-    color: white;
-    line-height: 45px;
-    border-radius: 10px;
+
+.prb {
+  background-color: rgb(218, 18, 18);
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  line-height: 40px;
 }
-.dimg{
-    margin-top: 60px;
-    margin-bottom: -40px;
-    margin-left: 50px;
+.prb h2 {
+  margin-top: 50px;
+  padding-top: 50px;
 }
-.diss p{
-    margin-top: 40px;
-    font-size: 18px;
+.date {
+  color: rgb(1, 1, 51);
+  margin-top: 70px;
 }
-.diss .dis{
-    background-color: #e48203;
+.date h2 {
+  text-align: center;
+  margin-bottom: 60px;
 }
-.eco{
-    margin-top: 80px;
-    text-align: center;
+.date p {
+  font-size: 18px;
 }
-.eco .m1{
-    color: rgb(231, 3, 3);
-    margin-top: 30px;
+.parts {
+  background-color: rgb(1, 1, 32);
+  color: white;
+  margin-top: 50px;
+  padding-bottom: 50px;
 }
-.eco .m2{
-color: orangered;
-margin-top: 30px;
+.parts h2 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
-.eco .m3{
-    color: #e48203;
-    margin-top: 30px;
+.hows {
+  text-align: center;
+  align-items: center;
 }
-.eco .ecos{
-    background-color: rgb(247, 219, 224);
-    border-color: rgb(247, 219, 224);
-    line-height: 33px;
+.hows h2 {
+  padding-top: 70px;
+  color: rgb(1, 1, 51);
 }
-.eco .ecosy{
-    background-color: rgb(236, 212, 179);
-    border-color: rgb(236, 212, 179);
-    line-height: 33px;
+.hws {
+  background-color: rgb(228, 230, 231);
 }
-.eco .ecosys{
-    background-color: rgb(231, 227, 172);
-    border-color: rgb(231, 227, 172);
-    line-height: 33px;
+.how .how1 {
+  margin-left: 920px;
+  margin-top: 20px;
 }
-.eco .simple-linear{
-    margin-top: 50px;
-    background: linear-gradient( #e6b102, rgb(233, 2, 2));
-    color: white;
-    border-radius: 35px;
-    width: 175px;
-    height: 55px;
-    font-size: 18px;
-    border: none;
+.how .how2 {
+  margin-left: 720px;
+  margin-top: -100px;
 }
-.footer{
-    background-color: rgb(0, 0, 29);
-    color: white;
-    padding-bottom: 20px;
-    padding-top: 60px;
-    margin-top: 80px;
+.how .how3 {
+  margin-left: 480px;
+  margin-top: -230px;
 }
-.footer h1{
-    font-size: 60px;
-    background-color: red;
-    color: #fac002;
-    text-align: center;
-    margin-right: 50px;
+.how .how4 {
+  margin-left: 220px;
+  margin-top: -170px;
 }
-.footer p{
-    font-size: 16px;
+.how .how5 {
+  margin-left: 20px;
+  margin-top: -120px;
 }
-.footer .simple-linear{
-    background: linear-gradient( #e6b102, rgb(233, 2, 2));
-    color: white;
-    border-radius: 35px;
-    width: 175px;
-    height: 55px;
-    font-size: 18px;
-    border: none;
-    margin-left: 70px;
+.how .stp5 {
+  font-size: 40px;
+  color: rgb(231, 3, 3);
 }
-.footer h6{
-    text-align: center;
-    margin-top: 40px;
+.how .stp4 {
+  font-size: 40px;
+  color: rgb(1, 1, 51);
+}
+.how .stp3 {
+  font-size: 40px;
+  color: #fa871c;
+}
+.how .stp2 {
+  font-size: 40px;
+  color: orangered;
+}
+.how .stp1 {
+  font-size: 40px;
+  color: rgb(231, 3, 3);
+}
+.how5 h4 {
+  color: rgb(231, 3, 3);
+}
+.how4 h4 {
+  color: orangered;
+}
+.how3 h4 {
+  color: #fa871c;
+}
+.how2 h4 {
+  color: rgb(1, 1, 51);
+}
+.how1 h4 {
+  color: rgb(231, 3, 3);
+}
+.tool {
+  align-items: center;
+  text-align: center;
+}
+.squar {
+  border: 2px solid rgb(231, 3, 3);
+  border-radius: 10px;
+  text-align: center;
+}
+.square {
+  border: 2px solid #da6c05;
+  border-radius: 10px;
+  text-align: center;
+}
+.squares {
+  border: 2px solid #e6b102;
+  border-radius: 10px;
+  text-align: center;
+}
+.tol p {
+  margin-bottom: 70px;
+  color: rgb(231, 3, 3);
+}
+.tols h2 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: rgb(1, 1, 51);
+}
+.update {
+  background-color: #f18a04;
+  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.update h1 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.update button {
+  background-color: red;
+}
+.dist {
+  background-color: red;
+  margin-top: 60px;
+  color: white;
+  line-height: 45px;
+  border-radius: 10px;
+}
+.dimg {
+  margin-top: 60px;
+  margin-bottom: -40px;
+  margin-left: 50px;
+}
+.diss p {
+  margin-top: 40px;
+  font-size: 18px;
+}
+.diss .dis {
+  background-color: #e48203;
+}
+.eco {
+  margin-top: 80px;
+  text-align: center;
+}
+.eco .m1 {
+  color: rgb(231, 3, 3);
+  margin-top: 30px;
+}
+.eco .m2 {
+  color: rgb(253, 87, 26);
+  margin-top: 30px;
+}
+.eco .m3 {
+  color: #e48203;
+  margin-top: 30px;
+}
+.eco .ecos {
+  background-color: rgb(250, 232, 235);
+  border: none;
+  line-height: 33px;
+}
+.eco .ecosy {
+  background-color: rgb(245, 227, 201);
+  border: none;
+  line-height: 33px;
+}
+.eco .ecosys {
+  background-color: rgb(247, 244, 202);
+  border: none;
+  line-height: 33px;
+}
+.eco .simple-linear {
+  margin-top: 50px;
+  background: linear-gradient(#e6b102, rgb(233, 2, 2));
+  color: white;
+  border-radius: 35px;
+  width: 175px;
+  height: 55px;
+  font-size: 18px;
+  border: none;
+}
+.footer {
+  background-color: rgb(0, 0, 29);
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  margin-top: 80px;
+}
+.footer h1 {
+  font-size: 60px;
+  background-color: red;
+  color: #fac002;
+  text-align: center;
+  margin-right: 50px;
+}
+.footer p {
+  font-size: 16px;
+}
+.footer .simple-linear {
+  background: linear-gradient(#e6b102, rgb(233, 2, 2));
+  color: white;
+  border-radius: 35px;
+  width: 175px;
+  height: 55px;
+  font-size: 18px;
+  border: none;
+  
+}
+.footer h6 {
+  text-align: center;
+  margin-top: 40px;
 }
