@@ -95,12 +95,25 @@ font-size: 26px;
   .hows h1 {
     margin-bottom: -150px;
   }
+  .dist img {
+    width: 220;
+    height: 250;
+  }
   .footer .simple-linear{
     margin-left: 150px;
+  }
+  .footer h1{
+    font-size: 16px;
   }
 }
 
 @media (max-width: "1240px") {
+.builder img {
+    overflow-x: clip;
+  }
+ .abt img {
+    overflow-x: clip;
+  }
   .date .dates p {
     font-size: 14px;
   }
