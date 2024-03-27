@@ -3,14 +3,16 @@ import { Button, Container, Nav, Navbar } from "react-bootstrap";
 
 const MyNav = () => {
   return (
-    <div>
+    <div className="navs_div">
       <Navbar expand="lg" className="bg-body-tertiary fixed-top">
-        <Container>
+        <Container className="navs_container">
           <Navbar.Brand href="#home">
-            <b>
-              {" "}
-              <span className="blix">BLIX-A</span>-THON
-            </b>
+            <h3>
+              <b>
+                {" "}
+                <span className="blix">BLIX-A</span>-THON
+              </b>
+            </h3>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

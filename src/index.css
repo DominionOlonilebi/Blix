@@ -1,6 +1,6 @@
 /*navbar*/
 .navbar .navbar-brand {
-  font-size: 45px;
+  font-size: 38px;
   background: linear-gradient(to right, rgb(231, 3, 3) 0%, #f1d904 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -66,9 +66,11 @@
 }
 
 @media (max-width: 768px) {
+.navbar .navbar-brand{
+font-size: 26px;
+}
   .abt img {
-    width: 400px;
-    height: 400px;
+    display: none;
   }
   .abt .abts {
     margin-top: 30px;
@@ -82,7 +84,7 @@
     margin-top: -50px;
   }
   .builder img {
-    margin-bottom: 70px;
+    display: none;
   }
   .date .dates p {
     font-size: 14px;
